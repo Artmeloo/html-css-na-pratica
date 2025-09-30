@@ -1,0 +1,89 @@
+/* body zerado faz com que qualquer preset do navegador seja apagado */
+body {
+  margin: 0;
+  padding: 100px 0 0 0;
+}
+.header {
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  line-height: 2;
+  font-size: 20px;
+  background-color: black;
+  font-family: "Inter", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* 👈 força ocupar a largura da tela */
+  z-index: 1000; /* garante que fique acima dos outros elementos */
+}
+.header h1 {
+  margin: 0px;
+  font-size: 30px;
+}
+
+.header a {
+  color: white;
+  padding: 0 20px;
+  text-decoration: underline;
+}
+
+.Front-End-de-verdade {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #0a0a0a, #2c3e50);
+}
+.Front-End-de-verdade h1 {
+  font-size: 50px;
+  margin: 10px;
+}
+.Front-End-de-verdade p {
+  font-size: 20px;
+  margin: 5px;
+}
+.me-contratar {
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+}
+.list-diferenciais {
+  font-family: "Inter", sans-serif;
+  padding: 20px;
+}
+#vamos-conversar {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  padding: 60px 40px 40px;
+  box-sizing: border-box;
+  background-color: #3498db;
+  margin-bottom: 30px;
+}
+#vamos-conversar a {
+  text-decoration: none;
+  background-color: white;
+  border-radius: 20px;
+}
+
+#vamos-conversar a.btn {
+  display: inline-block; /* Faz o link se comportar como botão */
+  padding: 15px 20px; /* Espaçamento interno */
+  margin-top: 19px;
+  background-color: white; /* Cor do botão */
+  color: #3498db; /* Texto azul */
+  border-radius: 30px; /* Bordas arredondadas */
+  font-weight: bold;
+  text-decoration: none; /* Remove o sublinhado */
+  transition: all 0.3s ease; /* Suaviza animações */
+}
+footer {
+  padding: 10px;
+  text-align: center;
+  color: white;
+  background-color: #0a0a0a;
+}
